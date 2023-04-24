@@ -3,10 +3,12 @@
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * _printf - Printf function
- * @format: format.
- * Return: Printed chars.
+ * _printf - Prints formatted output to the standard output stream
+ * @format: A string containing the format specifiers and text to be printed
+ *
+ * Return: The number of characters printed
  */
+
 int _printf(const char *format, ...)
 {
 	int i, printed = 0, printed_chars = 0;
@@ -53,10 +55,11 @@ int _printf(const char *format, ...)
 }
 
 /**
- * print_buffer - Prints the contents of the buffer if it exist
- * @buffer: Array of chars
- * @buff_ind: Index at which to add next char, represents the length.
+ * print_buffer - Prints contents of the buffer if it exist
+ * @buffer: An array of characters containing the text to be printed
+ * @buff_ind: A pointer to the current buffer index, which is updated by the function
  */
+
 void print_buffer(char buffer[], int *buff_ind)
 {
 	if (*buff_ind > 0)
@@ -64,4 +67,5 @@ void print_buffer(char buffer[], int *buff_ind)
 
 	*buff_ind = 0;
 }
+
 
