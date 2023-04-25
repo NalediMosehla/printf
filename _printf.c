@@ -5,7 +5,6 @@ void print_buffer(char buffer[], int *buff_ind);
 /**
  * _printf - Prints formatted output to the standard output stream
  * @format: A string containing the format specifiers and text to be printed
- *
  * Return: The number of characters printed
  */
 
@@ -67,5 +66,4 @@ void print_buffer(char buffer[], int *buff_ind)
 
 	*buff_ind = 0;
 }
-
 

@@ -5,7 +5,6 @@
  * @format: Formatted string to print the arguments
  * @i: Index of the current character in the formatted string.
  * @list: list of arguments
- *
  * Return: Precision.
  */
 
